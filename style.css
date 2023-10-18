@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background: rgba(42, 197, 202, 0.986);
+}
+
+
+
+
+
+
+
+section{
+
+    text-align: center;
+}
+
+#wrapper{
+display: flex;
+margin-left: 50px;
+
+
+
+}
+
+.icons{
+    width:20%;
+
+
+}
