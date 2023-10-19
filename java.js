@@ -18,6 +18,9 @@ for(i=0;i<5;i++){
 for(i=0;i<5;i++){
     document.getElementById("day" +(i+1) + "Humid").innerHTML="Humidity:" + Number(data.list[i].main.humidity).toFixed(0)+"%";
 }
+for(i=0;i<5;i++){
+    document.getElementById("day" +(i+1) + "Wind").innerHTML="Wind:" + Number(data.list[i].wind.speed).toFixed(0)+"mph";
+}
 
 
 for(i = 0; i<5; i++){
