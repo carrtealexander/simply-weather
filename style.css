@@ -4,10 +4,21 @@ body{
 }
 
 
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+  text-decoration: underline;
+}
 
+h2{
 
+    font-family:monospace;
+}
 
-
+.searchText{
+   font-family: monospace;
+   font-size: 20px;
+}
 
 section{
 
@@ -17,7 +28,13 @@ section{
 #wrapper{
 display: flex;
 margin-left: 50px;
-
+background-color: aliceblue;
+margin-right: 60px;
+padding-right: 20px;
+padding-left: 35px;
+border-radius: 50px;
+padding-top: 100px ;
+padding-bottom: 100px;
 
 
 }
@@ -26,4 +43,23 @@ margin-left: 50px;
     width:20%;
 
 
+}
+
+
+
+
+.icons{
+background: rgba(199, 195, 195, 0.753);
+padding: 50px;
+margin-right: 10px;
+border-radius: 50px;
+
+
+}
+
+
+
+#iconsContainer{
+
+    background-color: rgb(95, 95, 95);
 }
