@@ -43,7 +43,7 @@
 
 A 5 day spread weather application.
 Deployed link: https://carrtealexander.github.io/simply-weather/
-![image](https://github.com/carrtealexander/simply-weather/assets/143460245/84466354-6ee8-45bf-b2a8-e14481dcfd10)
+![image](https://github.com/carrtealexander/simply-weather/assets/143460245/c13bc814-4ac1-4f5c-a288-e03127db42bc)
 
 
 
