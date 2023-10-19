@@ -10,11 +10,15 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appi
 .then(response => response.json())
 .then(data => {
 for(i = 0; i<5;i++){
-    document.getElementById("day" +(i+1) + "Min").innerHTML="Min:" + Number(data.list[i].main.temp_min).toFixed(0)+"°";
+    document.getElementById("day" +(i+1) + "Min").innerHTML="Min:" + Number(data.list[i].main.temp_min).toFixed(0)+"°F";
 }
 for(i=0;i<5;i++){
-    document.getElementById("day" +(i+1) + "Max").innerHTML="Max:" + Number(data.list[i].main.temp_max).toFixed(0)+"°";
+    document.getElementById("day" +(i+1) + "Max").innerHTML="Max:" + Number(data.list[i].main.temp_max).toFixed(0)+"°F";
 }
+for(i=0;i<5;i++){
+    document.getElementById("day" +(i+1) + "Humid").innerHTML="Humidity:" + Number(data.list[i].main.humidity).toFixed(0)+"%";
+}
+
 
 for(i = 0; i<5; i++){
     document.getElementById("img" + (i+1)).src = "http://openweathermap.org/img/wn/"+
